@@ -141,7 +141,5 @@ namespace AutoRest.CSharp.Unit.Tests
 
             return outputFolder;
         }
-
-        internal static bool IsNullableValueType(this Type type) => type.IsGenericType && type.GetGenericTypeDefinition() == typeof(Nullable<>);
     }
 }
